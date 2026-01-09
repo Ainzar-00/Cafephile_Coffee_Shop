@@ -1,161 +1,62 @@
 # Cafephile — Coffee Shop
 
+## À propos
 
+Cafephile est une application Android immersive qui capture le charme et l'excitation de l'expérience d'un café. Conçue pour les amateurs de café et les utilisateurs occasionnels, elle vous permet d'explorer un catalogue diversifié de boissons et de produits avec des images de haute qualité, des descriptions détaillées et des évaluations d'autres utilisateurs.
 
-## About
+Au-delà de la navigation, l'application offre une expérience d'achat dynamique : ajoutez des articles à votre panier, gérez les quantités, sélectionnez les méthodes de paiement et finalisez un processus de paiement fluide. Avec des fonctionnalités interactives telles qu'une carte pour découvrir les cafés à proximité et une galerie photo présentant l'ambiance et les spécialités, Cafephile allie utilité et plaisir, donnant à chaque utilisateur l'impression de pénétrer dans un vrai café.
 
-`Cafephile` is a simple, clean Android app that demonstrates a coffee shop user experience:
-
-* browse a catalog of drinks and products
-* view product details and images
-* add items to a shopping cart
-* select payment options and complete checkout
-* mark favorites and view ratings
-
-This repository contains the Android (Kotlin + Jetpack Compose) source code, assets and Gradle configuration.
+Construit avec des pratiques modernes de développement Android utilisant Kotlin et Jetpack Compose, ce projet est parfait pour l'apprentissage, l'expérimentation et la création d'une expérience utilisateur engageante.
 
 ---
 
-## Screenshots
+## Captures d'écran
 
-> Add screenshots in `/assets/screenshots/` and update paths below.
+> Ajoutez des captures d'écran dans `/assets/screenshots/` et mettez à jour les chemins ci-dessous.
 
-![Screenshot 1](assets/screenshots/screenshot-1.png)
-![Screenshot 2](assets/screenshots/screenshot-2.png)
-
----
-
-## Features
-
-* Product listing with images and badges (new, discounted, popular)
-* Product detail screen with description, ingredients, and add-to-cart
-* Shopping cart with quantity update and subtotal calculation
-* Checkout form (billing info) and selection of payment method
-* Save cart/order data locally (SharedPreferences / local DB)
-* Theme and color palette matching a coffee aesthetic
-* Lightweight architecture suitable for learning Compose and basic state management
+![Capture 1](assets/screenshots/screenshot-1.png)
+![Capture 2](assets/screenshots/screenshot-2.png)
 
 ---
 
-## Tech stack
+## Fonctionnalités
+
+* Liste de produits avec images et badges (nouveau, en promotion, populaire)
+* Écran de détails des produits avec description, ingrédients et ajout au panier
+* Panier avec mise à jour des quantités et calcul du sous-total
+* Enregistrement local des données du panier/commande (SharedPreferences / base de données locale)
+* Thème et palette de couleurs correspondant à l'esthétique du café
+* Architecture légère adaptée à l'apprentissage de Compose et à la gestion de l'état
+
+---
+
+## Technologies utilisées
 
 * Kotlin
-* Android (minSdk 21+ recommended)
-* Jetpack Compose for UI
-* ViewModel + LiveData / State for state management
-* Gradle (Kotlin DSL or Groovy)
-* Optional: Room / SQLite for persistence
+* Android (minSdk 21+ recommandé)
+* Jetpack Compose pour l'interface utilisateur
+* Gradle (Kotlin DSL ou Groovy)
 
 ---
 
-## Project structure
+## Démarrage
 
-```
-├─ app/
-│  ├─ src/main/java/...    # Kotlin sources (UI, models, viewmodels)
-│  ├─ src/main/res        # resources (layouts, drawables, strings)
-│  └─ build.gradle
-├─ assets/                # images, screenshots
-├─ build.gradle
-└─ settings.gradle
-```
+### Prérequis
 
----
+* Android Studio (version Arctic Fox ou ultérieure recommandée)
+* JDK 11+ (correspondant à la configuration Gradle du projet)
+* SDK Android (plates-formes et outils de build appropriés installés)
 
-## Getting started
-
-### Requirements
-
-* Android Studio (Arctic Fox or later recommended)
-* JDK 11+ (match project Gradle configuration)
-* Android SDK (appropriate platforms and build tools installed)
-
-### Clone & open
+### Cloner & ouvrir
 
 ```bash
-# clone the repo
+# cloner le dépôt
 git clone https://github.com/Ainzar-00/Cafephile_Coffee_Shop.git
 cd Cafephile_Coffee_Shop
 
-# open in Android Studio: File → Open → select the project folder
+# ouvrir dans Android Studio : Fichier → Ouvrir → sélectionner le dossier du projet
 ```
 
-### Build and run
-
-1. In Android Studio: `File → Sync Project with Gradle Files`.
-2. If required, `Build → Clean Project` then `Build → Rebuild Project`.
-3. Run on an emulator or connected device: select target and click Run.
-
-Command-line (optional):
-
-```bash
-# from project root
-./gradlew assembleDebug
-# install to a connected device
-./gradlew installDebug
-```
-
-### Release build (APK / AAB)
-
-Create a signed release in Android Studio: `Build → Generate Signed Bundle / APK`.
-
-Or from CLI (assemble release, but signing config must be in place):
-
-```bash
-./gradlew assembleRelease
-```
-
----
-
-## Configuration & common tasks
-
-### Change app name / package name
-
-* Update `app/src/main/AndroidManifest.xml` `android:label` if you changed display name.
-* Update `settings.gradle` (root project name):
-
-```gradle
-rootProject.name = "Cafephile_Coffee_Shop"
-```
-
-* If you renamed the project folder manually, run: `File → Invalidate Caches / Restart` in Android Studio and re-open the project.
-
-### Fix Gradle sync issues
-
-1. `File → Sync Project with Gradle Files`.
-2. If errors persist: `Build → Clean Project` → `Build → Rebuild Project`.
-3. Close Android Studio and delete `.gradle/` and `**/build/` folders, then reopen the project.
-
----
-
-## Contributing
-
-Contributions are welcome. Typical workflow:
-
-```bash
-# fork the repo, clone your fork
-git checkout -b feature/your-feature
-# make changes, commit
-git add .
-git commit -m "feat: add ..."
-git push origin feature/your-feature
-# open a Pull Request on GitHub
-```
-
-Please keep commits clear and small. Add screenshots for UI changes.
-
----
-
-## License
-
-This project is open-source — add a license file (`LICENSE`) (e.g., MIT) if you want to make the terms explicit.
-
----
-
-## Contact
-
-If you want help with the project (build problems, feature suggestions, or README edits) open an issue or reach out via your GitHub profile: `Ainzar-00`.
-
----
-
-*Generated README — edit images, badges and sections to match your repo exactly.*
+#Auteurs:
+Youness Ainzar
+Sara Saadi
