@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="transparent">#00000000</string>
+    <color name="coffee_dark">#4A2C20</color>
+    <color name="coffee_medium">#8D6E63</color>
+    <color name="coffee_accent">#D7CCC8</color>
+    <color name="background_cream">#F9F4EF</color>
+    <color name="rating_yellow">#FFC107</color>
+    <color name="gold">#D4A574</color>
+
+    <color name="see_all_orange">#FF8A65</color>
+
+    <!-- Surface colors for light mode -->
+    <color name="surface_light">#FFFFFF</color>
+    <color name="card_background_light">#FFFFFF</color>
+
+    <!-- Text colors for light mode -->
+    <color name="text_primary_light">#4A2C20</color>
+    <color name="text_secondary_light">#8D6E63</color>
+
+    <!-- Divider colors -->
+    <color name="divider_light">#E0E0E0</color>
+
+    <!-- Status bar and navigation bar -->
+    <color name="status_bar_light">#4A2C20</color>
+</resources>
