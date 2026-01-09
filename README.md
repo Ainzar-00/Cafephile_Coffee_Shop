@@ -1,31 +1,6 @@
 # Cafephile — Coffee Shop
 
-> Mobile app (Android) showcasing a coffee shop catalog, product details, shopping cart and checkout flow.
 
----
-
-## Table of Contents
-
-* [About](#about)
-* [Screenshots](#screenshots)
-* [Features](#features)
-* [Tech stack](#tech-stack)
-* [Project structure](#project-structure)
-* [Getting started](#getting-started)
-
-  * [Requirements](#requirements)
-  * [Clone & open](#clone--open)
-  * [Build and run](#build-and-run)
-  * [Release build (APK / AAB)](#release-build-apk--aab)
-* [Configuration & common tasks](#configuration--common-tasks)
-
-  * [Change app name / package name](#change-app-name--package-name)
-  * [Fix Gradle sync issues](#fix-gradle-sync-issues)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-
----
 
 ## About
 
