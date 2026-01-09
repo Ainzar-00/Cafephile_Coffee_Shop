@@ -12,10 +12,15 @@ Construit avec des pratiques modernes de développement Android utilisant Kotlin
 
 ## Captures d'écran
 
-> Ajoutez des captures d'écran dans `/assets/screenshots/` et mettez à jour les chemins ci-dessous.
+###SplashScreen:
 
-![Capture 1](assets/screenshots/screenshot-1.png)
-![Capture 2](assets/screenshots/screenshot-2.png)
+<img width="595" height="904" alt="splashback" src="https://github.com/user-attachments/assets/85d850db-7eb3-47f2-a73c-e3c39ae0f3fa" />
+###Authentification:
+
+
+<img width="354" height="774" alt="Screenshot 2026-01-09 210934" src="https://github.com/user-attachments/assets/2a047d7c-dfe6-443b-b2db-4add80b085cb" /><img width="354" height="774" alt="Screenshot 2026-01-09 210934" src="https://github.com/user-attachments/assets/51f24c5b-039a-4375-9097-ddf2824ebbd7" />
+
+
 
 ---
 
