@@ -12,16 +12,39 @@ Construit avec des pratiques modernes de développement Android utilisant Kotlin
 
 ## Captures d'écran
 
-###SplashScreen:
+### SplashScreen:
 
 <img width="595" height="904" alt="splashback" src="https://github.com/user-attachments/assets/85d850db-7eb3-47f2-a73c-e3c39ae0f3fa" />
-###Authentification:
 
 ### Authentification:
-<img width="354" height="774" alt="Screenshot 2026-01-09 210934" src="https://github.com/user-attachments/assets/2a047d7c-dfe6-443b-b2db-4add80b085cb" /><br><br>
-<img width="354" height="774" alt="Screenshot 2026-01-09 210934" src="https://github.com/user-attachments/assets/51f24c5b-039a-4375-9097-ddf2824ebbd7" />
+<div style="display: flex; gap: 10px;">
+  <img width="354" height="774" alt="Screenshot 1" src="https://github.com/user-attachments/assets/2a047d7c-dfe6-443b-b2db-4add80b085cb" />
+  <img width="354" height="774" alt="Screenshot 2" src="https://github.com/user-attachments/assets/51f24c5b-039a-4375-9097-ddf2824ebbd7" />
+</div>
 
+### Home Screen:
 
+<img width="348" height="775" alt="Screenshot 2026-01-09 211013" src="https://github.com/user-attachments/assets/92e080ad-776f-45cb-9916-f03cf682ccff" />
+
+### Cart Screen:
+
+<img width="356" height="769" alt="Screenshot 2026-01-09 211214" src="https://github.com/user-attachments/assets/dacfe928-1419-4c90-ab32-a7946cf5d55c" />
+
+### Favorites Screen:
+
+<img width="355" height="769" alt="Screenshot 2026-01-09 211225" src="https://github.com/user-attachments/assets/0d112060-a8ee-4e0e-963b-9d362afb4578" />
+
+### Profile:
+
+<img width="364" height="762" alt="Screenshot 2026-01-09 211235" src="https://github.com/user-attachments/assets/439459b6-0e47-4c53-a5d8-bd5952b7179e" />
+
+### Products Screen:
+
+<img width="365" height="803" alt="Screenshot 2026-01-09 211311" src="https://github.com/user-attachments/assets/0ebbbcb1-edb1-4f8c-bc74-eec80c0f0419" />
+
+### Explore Screen:
+
+<img width="363" height="798" alt="Screenshot 2026-01-09 211259" src="https://github.com/user-attachments/assets/0e4e93b5-d9a7-47fd-ac8d-2e8195cd1a28" />
 
 ---
 
