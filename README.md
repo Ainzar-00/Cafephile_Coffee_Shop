@@ -79,7 +79,7 @@ Construit avec des pratiques modernes de développement Android utilisant Kotlin
 * Kotlin
 * Android (minSdk 21+ recommandé)
 * Jetpack Compose pour l'interface utilisateur
-* Gradle (Kotlin DSL ou Groovy)
+* Gradle 
 
 ---
 
